@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "ARISE",
-    "currentPage": "plan-a-visit.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -51,7 +51,14 @@
     "uniqCompNum": 14,
     "versionPublish": "4.10.5",
     "screenshot": "screenshot.png",
-    "siteUrl": "undefined"
+    "siteUrl": "undefined",
+    "PWA": {
+      "enabled": true,
+      "name": "ARISE Miami",
+      "icon": "@PROJECT_PATH@/assets/images/arise-512x512.png",
+      "themeColor": "#181818"
+    },
+    "pwa-switcher": "on"
   },
   "pages": {
     "index.html": {
