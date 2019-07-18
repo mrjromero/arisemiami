@@ -56,7 +56,7 @@
       "enabled": true,
       "name": "ARISE Miami",
       "icon": "@PROJECT_PATH@/assets/images/arise-512x512.png",
-      "themeColor": "#181818"
+      "themeColor": "#000000"
     },
     "pwa-switcher": "on"
   },
