@@ -1358,7 +1358,7 @@
     "life-groups.html": {
       "settings": {
         "meta_descr": "ARISE - LIFE GROUPS",
-        "title": "LIFE GROUPS",
+        "title": "ARISE Miami - Life Groups",
         "order": 2,
         "header_custom": "<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>"
       },
@@ -2230,7 +2230,7 @@
     "connect.html": {
       "settings": {
         "meta_descr": "ARISE - CONNECT",
-        "title": "CONNECT",
+        "title": "ARISE Miami - Connect",
         "order": 3,
         "header_custom": "<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>"
       },
@@ -2796,7 +2796,7 @@
     "plan-a-visit.html": {
       "settings": {
         "meta_descr": "ARISE - PLAN A VISIT",
-        "title": "PLAN A VISIT",
+        "title": "ARISE Miami - Plan a visit",
         "order": 4,
         "header_custom": "<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>"
       },
