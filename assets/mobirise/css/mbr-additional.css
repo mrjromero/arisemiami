@@ -2400,7 +2400,7 @@ body {
   color: #55b4d4 !important;
 }
 .cid-rvFC3H5QqR {
-  background: #ffffff;
+  background: #000000;
 }
 .cid-rvFC3H5QqR .image-block {
   margin: auto;
@@ -2423,7 +2423,13 @@ body {
   }
 }
 .cid-rvFC3H5QqR .mbr-figure-caption div {
-  color: #4f4943;
+  color: #000;
+}
+.cid-rvFC3H5QqR a {
+  color: #000;
+}
+.cid-rvFC3H5QqR a:hover {
+  color: black;
 }
 .cid-rvFCod2TSc {
   padding-top: 30px;
