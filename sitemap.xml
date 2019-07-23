@@ -3,9 +3,6 @@
 		<loc>https://www.arisemiami.org/index.html</loc>
 	</url>
 	<url>
-		<loc>https://www.arisemiami.org/404error.html</loc>
-	</url>
-	<url>
 		<loc>https://www.arisemiami.org/life-groups.html</loc>
 	</url>
 	<url>
@@ -31,5 +28,8 @@
 	</url>
 	<url>
 		<loc>https://www.arisemiami.org/shop.html</loc>
+	</url>
+	<url>
+		<loc>https://www.arisemiami.org/404.html</loc>
 	</url>
 </urlset>
