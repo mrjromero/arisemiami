@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "ARISE",
-    "currentPage": "index.html",
+    "currentPage": "404.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -6153,7 +6153,7 @@
         "meta_descr": "",
         "header_custom": "<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>",
         "footer_custom": "",
-        "html_before": "---\npermalink: /404.html\n---",
+        "html_before": "---\npermalink: /404.html\n---\n\n",
         "order": 10
       },
       "components": [
@@ -6625,7 +6625,7 @@
             }
           },
           "_name": "image2",
-          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"5\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/520114756-22c40b5eba-o-4-2000x1500.jpeg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"pb-5 px-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-figure-caption div\"><b>Nothing to see here... <a href=\"index.html\">Click to go home</a>.</b><br></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"5\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/520114756-22c40b5eba-o-4-2000x1500.jpeg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"pb-5 px-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-figure-caption div\"><b>Nothing to see here... <a href=\"index.html\"><b>Click to go home</b></a>.</b><br></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
           "_cid": "rvFC3H5QqR",
           "_anchor": "image2-y",
           "_PHPplaceholders": [],
