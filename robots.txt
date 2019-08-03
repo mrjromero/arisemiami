@@ -1,11 +1,8 @@
-Sitemap: https://arisemiami.org/sitemap.xml
 User-agent: *
-Disallow: /giving-thank-you.html/
-Noindex: /giving-thank-you.html/
-Disallow: /giving-thank-you/
-Noindex: /giving-thank-you/
-Disallow: /404.html/
-Noindex: /404.html/
+Allow: /
+
+Sitemap: https://arisemiami.org/sitemap.xml
+
 
 
 
