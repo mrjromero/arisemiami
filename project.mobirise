@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "ARISE",
+    "name": "ARISE Miami",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -60,8 +60,8 @@
       "themeColor": "#000000"
     },
     "pwa-switcher": "on",
-    "sitemapSwitcherAuto": "on",
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
+    "sitemapSwitcherAuto": "",
+    "robotsText": "Sitemap: https://arisemiami.org/sitemap.xml\nUser-agent: *\nDisallow: /giving-thank-you.html/\nNoindex: /giving-thank-you.html/\nDisallow: /giving-thank-you/\nNoindex: /giving-thank-you/\nDisallow: /404.html/\nNoindex: /404.html/\nAllow: /index.html/\n\n\n\n\n\n",
     "robotsSwitcher": "on",
     "sitemapSwitcher": "on",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-144165765-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-144165765-1');\r\n</script>"
@@ -2967,7 +2967,7 @@
         "meta_descr": "",
         "title": "THANK YOU FOR GIVING",
         "order": 6,
-        "header_custom": "<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>"
+        "header_custom": "<meta name=”robots” content=”noindex,nofollow”>\n<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>"
       },
       "components": [
         {
