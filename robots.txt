@@ -6,7 +6,7 @@ Disallow: /giving-thank-you/
 Noindex: /giving-thank-you/
 Disallow: /404.html/
 Noindex: /404.html/
-Allow: /index.html/
+
 
 
 
