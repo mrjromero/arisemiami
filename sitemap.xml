@@ -1,14 +1,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://arisemiami.org/</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.75</priority>
+		<lastmod>2019-08-07</lastmod>
 	</url>
 	<url>
 		<loc>https://arisemiami.org/life-groups/</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.5</priority>
+		<lastmod>2019-08-07</lastmod>
 	</url>
 	<url>
 		<loc>https://arisemiami.org/plan-a-visit/</loc>
+		<changefreq>daily</changefreq>
+		<priority>0.5</priority>
+		<lastmod>2019-08-07</lastmod>
 	</url>
 </urlset>
+
 
 
 

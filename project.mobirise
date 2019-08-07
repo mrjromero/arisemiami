@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "ARISE Adventist Church of Miami, FL",
+    "name": "ARISE Church | Miami, FL",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -61,7 +61,7 @@
     },
     "pwa-switcher": "on",
     "sitemapSwitcherAuto": "",
-    "robotsText": "User-agent: *\nAllow: /\n\nSitemap: https://arisemiami.org/sitemap.xml\n\n\n\n\n\n\n\n",
+    "robotsText": "User-agent: *\nAllow: /\n\nSitemap: https://arisemiami.org/sitemap.xml\n\n\n\n\n\n\n\n\n",
     "robotsSwitcher": "on",
     "sitemapSwitcher": "on",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-144165765-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-144165765-1');\r\n</script>",
@@ -83,9 +83,9 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "ARISE Adventist Church of Miami, FL",
-        "meta_descr": "Whether you are joining us in person or online, get ready to discover that God is more beautiful than you ever imagined. ",
-        "header_custom": "<style>\n#mc-shopcart{display:none;}\n</style>\n<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>",
+        "title": "ARISE Church | Miami, FL",
+        "meta_descr": "ARISE Church is Christian, people loving church based in Miami, FL and led by God. Discover your life's origin, meaning, morality and destiny with us.",
+        "header_custom": "<meta name=\"robots\" content=\"index, follow\">\n\n<link rel=\"canonical\" href=\"https://arisemiami.org\"/>\n<link rel=\"dns-prefetch\" href=\"https://www.youtube.com\">\n<link rel=\"dns-prefetch\" href=\"https://www.paypal.com\">\n<link rel=\"dns-prefetch\" href=\"https://www.truthlink.org\">\n<link rel=\"dns-prefetch\" href=\"https://madmimi.com\">\n\n<meta property=\"og:site_name\" content=\"ARISE Church | Miami, FL\"/>\n<meta property=\"og:title\" content=\"ARISE Church | Miami, FL\"/>\n<meta property=\"og:url\" content=\"https://arisemiami.org\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:description\" content=\"ARISE Church is Christian, people loving church based in Miami, FL and led by God. Discover your life's origin, meaning, morality and destiny with us.\"/>\n<meta itemprop=\"name\" content=\"ARISE Church | Miami, FL\"/>\n<meta itemprop=\"url\" content=\"https://arisemiami.org\"/>\n<meta itemprop=\"description\" content=\"ARISE Church is Christian, people loving church based in Miami, FL and led by God. Discover your life's origin, meaning, morality and destiny with us.\"/>\n<meta name=\"twitter:title\" content=\"ARISE Church\"/>\n<meta name=\"twitter:url\" content=\"https://arisemiami.org\"/>\n<meta name=\"twitter:card\" content=\"summary\"/>\n<meta name=\"twitter:description\" content=\"ARISE Church is Christian, people loving church based in Miami, FL and led by God. Discover your life's origin, meaning, morality and destiny with us.\" />\n\n<style>\n#mc-shopcart{display:none;}\n</style>\n<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>",
         "footer_custom": "",
         "html_before": ""
       },
@@ -756,7 +756,7 @@
             }
           },
           "_name": "info2",
-          "_customHTML": "<section class=\"mbr-section info2\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Text on Right/Left\" name=\"reverseContent\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#001f2e\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#c1c1c1\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row main justify-content-center\">\n            <div class=\"media-container-column col-12 col-lg-3 col-md-4\">\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"http://madmimi.com/signups/124478/join\" data-app-placeholder=\"Type Text\">\n                    \n                    SUBSCRIBE</a></div>\n            </div>\n            <div class=\"media-container-column title col-12 col-lg-7 col-md-6\">\n                <h2 mbr-if=\"showTitle\" class=\"align-right mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Get Connected</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-right mbr-light mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Subscribe to get the latest news and event information</h3>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section info2\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Text on Right/Left\" name=\"reverseContent\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#001f2e\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#c1c1c1\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row main justify-content-center\">\n            <div class=\"media-container-column col-12 col-lg-3 col-md-4\">\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://madmimi.com/signups/124478/join\" data-app-placeholder=\"Type Text\">\n                    \n                    SUBSCRIBE</a></div>\n            </div>\n            <div class=\"media-container-column title col-12 col-lg-7 col-md-6\">\n                <h2 mbr-if=\"showTitle\" class=\"align-right mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Get Connected</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-right mbr-light mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Subscribe to get the latest news and event information</h3>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rvE7uOuah4",
           "_anchor": "info2-j",
           "_protectedParams": [],
@@ -880,8 +880,8 @@
     },
     "life-groups.html": {
       "settings": {
-        "meta_descr": "Life is meant to be lived in community, not alone.",
-        "title": "ARISE Miami - Life Groups",
+        "meta_descr": "Life is meant to be lived in community, not alone. Join or start an life group in Miami, FL.",
+        "title": "ARISE Church | Life Groups",
         "order": 7,
         "header_custom": "<style>\n#mc-shopcart{display:none;}\n</style>\n<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>"
       },
@@ -1755,7 +1755,7 @@
     "connect.html": {
       "settings": {
         "meta_descr": "Follow along with the ARISE experience, discover your next step.",
-        "title": "ARISE Miami - Connect",
+        "title": "ARISE Church | Connect",
         "order": 8,
         "header_custom": "<style>\n#mc-shopcart{display:none;}\n</style>\n<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>"
       },
@@ -2321,7 +2321,7 @@
     "plan-a-visit.html": {
       "settings": {
         "meta_descr": "We know meeting someone for the first time can be intimidating, and going to a new church for the first time can make you nervous. We want to help make your first experience at ARISE is a good one!",
-        "title": "ARISE Miami - Plan a visit",
+        "title": "ARISE Church | Plan a visit",
         "order": 9,
         "header_custom": "<style>\n#mc-shopcart{display:none;}\n</style>\n<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>"
       },
@@ -2982,7 +2982,7 @@
         "meta_descr": "",
         "title": "THANK YOU FOR GIVING",
         "order": 6,
-        "header_custom": "<style>\n#mc-shopcart{display:none;}\n</style>\n<meta name=”robots” content=”noindex,nofollow”>\n<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>"
+        "header_custom": "<meta name=”robots” content=”noindex,nofollow”>\n<style>\n#mc-shopcart{display:none;}\n</style>\n<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>"
       },
       "components": [
         {
@@ -3537,8 +3537,8 @@
     },
     "stories.html": {
       "settings": {
-        "meta_descr": "Stories of people transformed by their walk with Jesus and the ARISE Miami community. ",
-        "title": "ARISE Miami - Stories",
+        "meta_descr": "Stories of people transformed by their walk with Jesus and the ARISE church community in Miami, FL. ",
+        "title": "ARISE Church | Stories",
         "order": 5,
         "header_custom": "<style>\n#mc-shopcart{display:none;}\n</style>\n<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>",
         "footer_custom": ""
@@ -4313,8 +4313,8 @@
     },
     "life-group-resources.html": {
       "settings": {
-        "meta_descr": "ARISE Miami life group resources for abiding in Christ, leading well, and shepherding.",
-        "title": "ARISE Miami - Life Group Resources",
+        "meta_descr": "ARISE Church life group resources for abiding in Christ, leading well, and shepherding.",
+        "title": "ARISE Church | Life Group Resources",
         "order": 4,
         "header_custom": "<style>\n#mc-shopcart{display:none;}\n</style>\n<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>"
       },
@@ -4935,7 +4935,7 @@
     "life-group-guidelines.html": {
       "settings": {
         "meta_descr": "Guidelines for life groups.",
-        "title": "ARISE Miami - Life Group Guidelines",
+        "title": "ARISE Church | Life Group Guidelines",
         "order": 3,
         "header_custom": "<style>\n#mc-shopcart{display:none;}\n</style>\n<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>"
       },
@@ -5555,8 +5555,8 @@
     },
     "life-group-goals.html": {
       "settings": {
-        "meta_descr": "Life group goals",
-        "title": "ARISE Miami - Life Group Goals",
+        "meta_descr": "ARISE Church life group goals.",
+        "title": "ARISE Church | Life Group Goals",
         "order": 2,
         "header_custom": "<style>\n#mc-shopcart{display:none;}\n</style>\n<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>"
       },
@@ -6139,10 +6139,10 @@
     },
     "shop.html": {
       "settings": {
-        "meta_descr": "ARISE Miami swager!",
-        "title": "ARISE Miami - Shop",
+        "meta_descr": "Get your ARISE Church swager here.",
+        "title": "ARISE Church | Shop",
         "order": 1,
-        "header_custom": "<style>\n#mc-shopcart{display:none;}\n</style>\n<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>"
+        "header_custom": "<meta name=”robots” content=”noindex,nofollow”>\n<style>\n#mc-shopcart{display:none;}\n</style>\n<script language=JavaScript>\n<!--\n\n//Disable right mouse click Script\n//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive\n//For full source code, visit http://www.dynamicdrive.com\n\nvar message=\"Function Disabled! Like to code web applications? Join our media and production team. We could use your help.\";\n\n///////////////////////////////////\nfunction clickIE4(){\nif (event.button==2){\nalert(message);\nreturn false;\n}\n}\n\nfunction clickNS4(e){\nif (document.layers||document.getElementById&&!document.all){\nif (e.which==2||e.which==3){\nalert(message);\nreturn false;\n}\n}\n}\n\nif (document.layers){\ndocument.captureEvents(Event.MOUSEDOWN);\ndocument.onmousedown=clickNS4;\n}\nelse if (document.all&&!document.getElementById){\ndocument.onmousedown=clickIE4;\n}\n\ndocument.oncontextmenu=new Function(\"alert(message);return false\")\n\n// --> \n</script>"
       },
       "components": [
         {
