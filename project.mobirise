@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "ARISE Church",
-    "currentPage": "index.html",
+    "currentPage": "arise-coronavirus-updates.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -9508,7 +9508,7 @@
         }
       ]
     },
-    "page15.html": {
+    "arise-coronavirus-updates.html": {
       "settings": {
         "meta_descr": "We know meeting someone for the first time can be intimidating, and going to a new church for the first time can make you nervous. We want to help make your first experience at ARISE is a good one!",
         "title": "ARISE Church | Coronavirus Updates",
