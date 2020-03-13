@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "ARISE Church",
-    "currentPage": "index.html",
+    "currentPage": "arise-coronavirus-updates.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -51,7 +51,7 @@
     ],
     "favicon": "@PROJECT_PATH@/assets/images/arise-favicon-128x128.png",
     "noImageResize": true,
-    "uniqCompNum": 46,
+    "uniqCompNum": 49,
     "versionPublish": "4.11.5",
     "screenshot": "screenshot.png",
     "siteUrl": "https://www.arisemiami.org",
@@ -9574,6 +9574,43 @@
             }
           },
           "_name": "header16",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">ARISE Miami Coronavirus Updates</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">March 13, 2020</h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><p>Dear ARISE Miami Family:\n<br>\n<br>Out of the abundance of caution we are<b> suspending our church services for the next two weeks and will invite all of you to join us for our services online</b>.\n<br>\n<br><a href=\"https://www.youtube.com/c/ARISEMiami\" target=\"_blank\">https://www.youtube.com/c/ARISEMiami\n</a><br>\n<br><b>We will begin our livestream tomorrow, March 14th at 11:15AM</b>\n<br>\n<br>Take this opportunity to <b>visit the link above and subscribe</b> to the YouTube channel and click on the notification bell to be notified when we post new content and are live.\n<br>\n<br>All of our Life Groups will immediately move towards an online format to avoid putting anyone at risk. We will provide more information as we are able.\n<br>\n<br>We have been informed that the Miami-Dade school district is suspending school as well as GMAA. Multiple events nation, state, and city-wide have been suspended and as such we do not feel it prudent to keep the church open.\n<br>\n<br>I believe that the best we can do as disciples of Jesus is to NOT be purveyors of sickness. Out of love for our community we need to detach for a time.\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;<br>▪\tPlease be in prayer. We are asking for God to give us courage and peace during this time.\n<br>▪\tPlease pray for our civic and church leaders to make good and prudent decisions.\n<br>▪\tPlease pray for our medical community to find a breakthrough to arrest this pandemic.\n<br>▪\tPlease pray for those currently sick for God to place his healing hand on them.\n<br></p><p>Looking forward to connecting with you online tomorrow and in the coming days.\n<br>\n<br>We will continue to communicate with you all through our social media platforms.\n<br>\n<br>Be of good courage,\n<br>\n<br>Kendall<b><br></b></p></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_anchor": "header16-1c",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rTa4Hm3nyJ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "P": {
+              "color": "#767676"
+            },
+            "H1": {
+              "text-align": "left"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left"
+            },
+            "H3": {
+              "text-align": "left"
+            }
+          },
+          "_name": "header16",
           "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">ARISE Miami Coronavirus Updates</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">March 12, 2020</h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Hello Arise Miami Family,<br><br>We wanted to send out a personalized communication on behalf of your church.  We want to keep everyone as informed as possible in light of the COVID-19 outbreak that is affecting all of us right now.  As of this moment our church service for this weekend March 14, 2020 is moving forward.  <br><br>Our recommendations after consulting with our church board, conference office personnel, and some guidelines from the department of health for Miami-Dade County are as follows.  <br><br><b>1)  We will suspend our breakfast indefinitely at church to avoid unnecessary exposure to infection.<br><br>2)  Please continue washing your hands and using hand sanitizer as often as possible.<br><br>3)  Please refrain from hand shaking, fist bumping, hugs, or close contact, until everything resolves.  Elbow bumping is fine.<br><br>4)  If you are sick, have come from any travel abroad or have been around anyone who has been, please <a href=\"https://www.youtube.com/channel/UCdybBATKZ0r45zdFIQ70ljQ/live\" target=\"_blank\">worship with us online</a> until you are certain you are in full health.  The virus usually manifests in 5 days from initial exposure.</b><br><br>We will continue to monitor our Miami-Dade County guidelines and let you know of our churches closure if necessary.  I want to leave you with words from our president Pr. Allan Macahdo.  <br><br><b>“Today more than ever, we should embrace the words of our Lord Jesus Christ: I will not leave you alone, my peace I give to you. Do not be afraid. The presence of the Lord will be with us until the end of time (John 14).”</b><br> <br><a href=\"https://www.cdc.gov/coronavirus/2019-ncov/index.html\" target=\"_blank\">https://www.cdc.gov/coronavirus/2019-ncov/index.html</a><br> <br><a href=\"http://www.floridahealth.gov/diseases-and-conditions/COVID-19/index.html\" target=\"_blank\">http://www.floridahealth.gov/diseases-and-conditions/COVID-19/index.html</a><br>  <br><a href=\"https://www.adventhealth.com/coronavirus-resource-hub\" target=\"_blank\">https://www.adventhealth.com/coronavirus-resource-hub</a><br> <br>God will certainly see us through,<br><br>Pastor Kendall Turcios<b><br></b></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "rT3FrfJv6R",
           "_anchor": "header16-15",
@@ -10097,6 +10134,25 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-article=\"\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>\n                <b> Make your own website in a few clicks!</b> Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and <i>mobile friendly websites</i> in a few clicks. Mobirise is one of the easiest website development tools <a href=\"https://mobirise.co/\">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rTa4ksPYY3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-1a"
         }
       ]
     }
