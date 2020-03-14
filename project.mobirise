@@ -9571,6 +9571,9 @@
             },
             "H3": {
               "text-align": "left"
+            },
+            ".mbr-text, .mbr-section-btn P": {
+              "text-align": "left"
             }
           },
           "_name": "header16",
