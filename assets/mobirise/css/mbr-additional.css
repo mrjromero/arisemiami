@@ -9368,6 +9368,7 @@ section.lazy-placeholder:after {
   padding: 80px 0;
   color: #777;
   text-align: center;
+  width: 600px;
 }
 #pco-calendar-widget p {
   font-size: 60px;
