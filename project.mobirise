@@ -51,7 +51,7 @@
     ],
     "favicon": "@PROJECT_PATH@/assets/images/arise-favicon-128x128.png",
     "noImageResize": true,
-    "uniqCompNum": 56,
+    "uniqCompNum": 58,
     "versionPublish": "4.11.5",
     "screenshot": "screenshot.png",
     "siteUrl": "https://www.arisemiami.org",
@@ -10582,20 +10582,27 @@
           "_anchor": "header1-1j"
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n<div id=\"resources_calendar_widget\" class=\"styled\">\n  <div class=\"loader\">Loading...</div>\n</div>\n[JS_CODE_0]",
-          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n  padding: 80px 0;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "pco-calendar-widget",
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-article=\"\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>\n                <div id=\"resources_calendar_widget\" class=\"styled\">\n  <div class=\"loader\">Loading...</div>\n</div>\n[JS_CODE_0]\n        </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rTHv3pKc4c",
+          "_anchor": "content1-1l",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
             "<script type=\"text/javascript\">\n  (function(){\n    var rs = document.createElement(\"script\");\n    rs.type = \"text/javascript\";\n    rs.async = true;\n    rs.src = \"//calendar.planningcenteronline.com/widgets/eJxj4ajmsGLLz2S6eMyKK7U4v6Ckmt2KrdhTSSittKS0KDU-tSw1r6SYzYrNNcSKrTSTuXkuixV3QWJRYm5xNQMAVf8TWQ==5d7f9f9d1ab9277ce90f711c5c3c75694080fba4.js\";\n    var s = document.getElementsByTagName(\"script\")[0];\n    s.parentNode.insertBefore(rs,s);\n  })();\n</script>"
-          ]
+          ],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
           "alias": false,

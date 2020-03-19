@@ -9361,18 +9361,14 @@ section.lazy-placeholder:after {
   padding-bottom: 15px;
   background-image: url("../../../assets/images/background4.jpg");
 }
-#pco-calendar-widget {
-  /* Type valid CSS here */
+.cid-rTHv3pKc4c {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
 }
-#pco-calendar-widget div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#pco-calendar-widget p {
-  font-size: 60px;
-  color: #777;
-  padding: 80px 0;
+.cid-rTHv3pKc4c .mbr-text,
+.cid-rTHv3pKc4c blockquote {
+  color: #767676;
 }
 .cid-rTHr2797xg {
   padding-top: 30px;
