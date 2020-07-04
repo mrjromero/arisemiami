@@ -50,9 +50,9 @@
       }
     ],
     "favicon": "@PROJECT_PATH@/assets/images/arise-favicon-128x128.png",
-    "noImageResize": true,
-    "uniqCompNum": 73,
-    "versionPublish": "4.11.5",
+    "noImageResize": null,
+    "uniqCompNum": 74,
+    "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "siteUrl": "https://www.arisemiami.org",
     "PWA": {
@@ -82,7 +82,8 @@
     },
     "": "on",
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "imageResize": false
   },
   "pages": {
     "index.html": {
@@ -719,44 +720,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_params": {
-            "token": "1457834868.727bfe1.5a14d7fa1d0a440dbc298e6fb34530be",
-            "showTitle": true,
-            "layoutGridRadio": false,
-            "imagesPerRowGrid": "6",
-            "rows": "1",
-            "showMoreButton": false,
-            "layoutSliderRadio": true,
-            "imagesPerRowSlider": "6",
-            "spacing": "15",
-            "fullWidth": true,
-            "paddingTop": 1,
-            "paddingBottom": "1",
-            "bgColorRadio": true,
-            "bgColor": "#232323",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/46798337-2464531630284765-8954693000374517760-n-960x960.jpg",
-            "overlay": true,
-            "overlayColor": "#232323",
-            "overlayOpacity": 0.6
-          },
-          "title": "Follow <b>@arisemiami</b> on <i>Instagram</i><br><i>swipe below to view our recent posts</i>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-max-id=\"2000779529615166973_1457834868\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Show more</a>",
-          "display2": "display-5",
-          "display4": "display-4",
-          "alias": "instagram-feed",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "instagram-feed-block",
-          "_anchor": "instagram-feed-block-d",
-          "_styles": {
-            ".inst__title": {
-              "color": "#ffffff"
-            }
-          }
         },
         {
           "alias": false,
