@@ -32,7 +32,8 @@
         "#003b57",
         "#000000",
         "#02a8b5",
-        "#f9950c"
+        "#f9950c",
+        "#2e2e2e"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -51,7 +52,7 @@
     ],
     "favicon": "@PROJECT_PATH@/assets/images/arise-favicon-128x128.png",
     "noImageResize": null,
-    "uniqCompNum": 74,
+    "uniqCompNum": 78,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "siteUrl": "https://www.arisemiami.org",
@@ -720,6 +721,44 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_params": {
+            "account": "arisemiami",
+            "showTitle": true,
+            "layoutGridRadio": true,
+            "imagesPerRowGrid": "6",
+            "rows": "2",
+            "showMoreButton": true,
+            "layoutSliderRadio": false,
+            "imagesPerRowSlider": "6",
+            "spacing": 5,
+            "fullWidth": false,
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColorRadio": true,
+            "bgColor": "#232323",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
+            "overlay": true,
+            "overlayColor": "#efefef",
+            "overlayOpacity": 0.6
+          },
+          "title": "Follow us at @ arisemiami",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Show more</a>",
+          "display2": "display-2",
+          "display4": "display-4",
+          "alias": "instagram-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "instagram-feed-block",
+          "_anchor": "instagram-feed-block-25",
+          "_styles": {
+            ".inst__title": {
+              "color": "#efefef"
+            }
+          }
         },
         {
           "alias": false,
