@@ -4474,11 +4474,24 @@
             "gallery": [
               {
                 "tags": "Responsive",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020614-148232020-6-2-15-3-15.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=NWSWZKPpnXw",
+                "image": "@PROJECT_PATH@/assets/images/mobirise2020614-148232020-6-2-14-32.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/mobirise2020614-148232020-6-2-14-32-512x288.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Amed's Story<br>",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020614-148232020-6-2-14-13-3.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=wUDWz-q0VQo",
-                "image": "@PROJECT_PATH@/assets/images/mobirise2020614-148232020-6-2-14-17-29-640x480.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mobirise2020614-148232020-6-2-14-17-29-640x480-640x480.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mobirise2020614-148232020-6-2-14-13-3.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mobirise2020614-148232020-6-2-14-13-3-800x450.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -4509,7 +4522,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Miracle Stories<br>",
-                "active": true
+                "active": false
               }
             ]
           }
