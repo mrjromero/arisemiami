@@ -4512,6 +4512,45 @@
             "gallery": [
               {
                 "tags": "Responsive",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020714-1922182020-7-5-19-27-41.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=TsgcAZXoMfM",
+                "image": "@PROJECT_PATH@/assets/images/oscar-yt-thumb.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/oscar-yt-thumb-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Miracle Stories<br>",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020714-1922182020-7-5-19-27-28.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=Iothj81MPd8",
+                "image": "@PROJECT_PATH@/assets/images/oscar-yt-thumb.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/oscar-yt-thumb-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Miracle Stories<br>",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020714-1922182020-7-5-19-27-14.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=Mv8_WsyupvU",
+                "image": "@PROJECT_PATH@/assets/images/oscar-yt-thumb.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/oscar-yt-thumb-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Miracle Stories<br>",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2020620-1315142020-6-1-13-21-54.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/LdojP6JmGEw",
@@ -4521,7 +4560,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Miracle Stories<br>",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Responsive",
