@@ -713,7 +713,7 @@ section.lazy-placeholder:after {
 .cid-rTDP5FZ8gu {
   padding-top: 90px;
   padding-bottom: 15px;
-  background-color: #7f1933;
+  background-color: #02a8b5;
 }
 .cid-rTDP5FZ8gu .mbr-text,
 .cid-rTDP5FZ8gu blockquote {
@@ -1124,28 +1124,15 @@ section.lazy-placeholder:after {
 .cid-rvA2jOxpV7 {
   background-image: url("../../../assets/images/arisebkg-1080x1080.jpg");
 }
-.cid-rvAjrta3d2 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #181818;
+.cid-s9Ln08Fj7O {
+  padding-top: 400px;
+  padding-bottom: 350px;
+  background-image: url("../../../assets/images/my-jesus-story-1.png");
 }
-.cid-rvAjrta3d2 .line {
-  background-color: #efefef;
-  color: #efefef;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-rvAjrta3d2 .section-text {
-  padding: 2rem 0;
-}
-.cid-rvAjrta3d2 .inner-container {
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
-  .cid-rvAjrta3d2 .inner-container {
-    width: 100% !important;
-  }
+.cid-s9LpfHYj6C {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #02a8b5;
 }
 .cid-rvGMZ4CF90 {
   padding-top: 30px;
@@ -1218,6 +1205,29 @@ section.lazy-placeholder:after {
 .cid-rvE4s8kHzQ P {
   text-align: right;
   color: #ffffff;
+}
+.cid-rvAjrta3d2 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #181818;
+}
+.cid-rvAjrta3d2 .line {
+  background-color: #efefef;
+  color: #efefef;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rvAjrta3d2 .section-text {
+  padding: 2rem 0;
+}
+.cid-rvAjrta3d2 .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rvAjrta3d2 .inner-container {
+    width: 100% !important;
+  }
 }
 #instagram-feed-block-2c .inst__title {
   color: #cccccc;
