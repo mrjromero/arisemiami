@@ -1124,10 +1124,26 @@ section.lazy-placeholder:after {
 .cid-rvA2jOxpV7 {
   background-image: url("../../../assets/images/arisebkg-1080x1080.jpg");
 }
-.cid-s9Ln08Fj7O {
-  padding-top: 400px;
-  padding-bottom: 350px;
-  background-image: url("../../../assets/images/my-jesus-story-1.png");
+.cid-s9LriCfP1m {
+  background: #000000;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.cid-s9LriCfP1m .image-block {
+  margin: auto;
+}
+.cid-s9LriCfP1m figcaption {
+  position: relative;
+}
+.cid-s9LriCfP1m figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-s9LriCfP1m .image-block {
+    width: 100% !important;
+  }
 }
 .cid-s9LpfHYj6C {
   padding-top: 15px;
@@ -1328,6 +1344,27 @@ section.lazy-placeholder:after {
 .cid-rvBBfVZghk .copyright > p {
   text-align: left;
   color: #ffffff;
+}
+.cid-s9LrfFRHsy {
+  background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-s9LrfFRHsy .image-block {
+  margin: auto;
+}
+.cid-s9LrfFRHsy figcaption {
+  position: relative;
+}
+.cid-s9LrfFRHsy figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-s9LrfFRHsy .image-block {
+    width: 100% !important;
+  }
 }
 .cid-rvA2aXUdWU .navbar {
   padding: .5rem 0;
