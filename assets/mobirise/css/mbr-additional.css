@@ -2177,32 +2177,6 @@ section.lazy-placeholder:after {
 .cid-rvYgaE1dcP .card .panel-body {
   color: #767676;
 }
-.cid-rRQs0HGl55 .google-map {
-  height: 25rem;
-  position: relative;
-}
-.cid-rRQs0HGl55 .google-map iframe {
-  height: 100%;
-  width: 100%;
-}
-.cid-rRQs0HGl55 .google-map [data-state-details] {
-  color: #6b6763;
-  font-family: Montserrat;
-  height: 1.5em;
-  margin-top: -0.75em;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  width: 100%;
-}
-.cid-rRQs0HGl55 .google-map[data-state] {
-  background: #e9e5dc;
-}
-.cid-rRQs0HGl55 .google-map[data-state="loading"] [data-state-details] {
-  display: none;
-}
 .cid-rvVj1CFHji {
   padding-top: 75px;
   padding-bottom: 150px;
