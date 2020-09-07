@@ -4767,10 +4767,31 @@ section.lazy-placeholder:after {
 .cid-rvA2aXUdWU .dropdown-item:hover {
   color: #55b4d4 !important;
 }
-.cid-rwLDj1PTcn {
-  padding-top: 120px;
-  padding-bottom: 30px;
-  background-image: url("../../../assets/images/wow-womens-life-group-854x570.jpg");
+.cid-s9SW1Gh2tM {
+  background-image: url("../../../assets/images/mbr-9.jpg");
+}
+.cid-s9SW1Gh2tM .icons-media-container {
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: 4rem;
+}
+.cid-s9SW1Gh2tM .icons-media-container .mbr-iconfont {
+  font-size: 96px;
+  color: #ffffff;
+}
+.cid-s9SW1Gh2tM .icons-media-container .icon-block {
+  padding-bottom: 1rem;
+}
+.cid-s9SW1Gh2tM .mbr-text {
+  color: #ffffff;
+}
+.cid-s9SW1Gh2tM .card {
+  padding-bottom: 1.5rem;
 }
 .cid-rwLJQAmiWk {
   padding-top: 75px;
