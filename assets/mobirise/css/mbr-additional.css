@@ -1275,6 +1275,21 @@ section.lazy-placeholder:after {
 .cid-sa1Pc9bgxV .btn {
   margin: 0 0 .5rem 0;
 }
+.cid-saneodREk7 {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  background: linear-gradient(0deg, #232323, #232323);
+}
+.cid-saneodREk7 .mbr-iconfont-social {
+  font-size: 32px;
+  color: #efefef;
+}
+.cid-saneodREk7 .social-list a:focus {
+  text-decoration: none;
+}
+.cid-saneodREk7 H2 {
+  color: #efefef;
+}
 #instagram-feed-block-2c .inst__title {
   color: #cccccc;
 }
