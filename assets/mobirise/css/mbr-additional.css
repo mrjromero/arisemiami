@@ -1244,7 +1244,7 @@ section.lazy-placeholder:after {
 .cid-rvAjrta3d2 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #181818;
+  background-color: #232323;
 }
 .cid-rvAjrta3d2 .line {
   background-color: #efefef;
@@ -1291,6 +1291,20 @@ section.lazy-placeholder:after {
   color: #efefef;
 }
 #instagram-feed-block-2c .inst__title {
+  color: #cccccc;
+}
+.cid-scsTQnTOaP {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #232323;
+}
+.cid-scsTQnTOaP .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-scsTQnTOaP .btn {
+  margin: 0 0 .5rem 0;
+}
+.cid-scsTQnTOaP H2 {
   color: #cccccc;
 }
 .cid-rvE7uOuah4 {
