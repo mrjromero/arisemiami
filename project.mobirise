@@ -53,7 +53,7 @@
     ],
     "favicon": "@PROJECT_PATH@/assets/images/arise-favicon-128x128.png",
     "noImageResize": null,
-    "uniqCompNum": 115,
+    "uniqCompNum": 116,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "siteUrl": "https://www.arisemiami.org",
@@ -855,11 +855,11 @@
             "showTitle": false,
             "layoutGridRadio": true,
             "imagesPerRowGrid": "4",
-            "rows": "2",
+            "rows": "3",
             "showMoreButton": false,
             "layoutSliderRadio": false,
-            "imagesPerRowSlider": "6",
-            "spacing": "7",
+            "imagesPerRowSlider": 4,
+            "spacing": 5,
             "fullWidth": false,
             "paddingTop": "1",
             "paddingBottom": "1",
@@ -871,7 +871,7 @@
             "overlayColor": "#efefef",
             "overlayOpacity": 0.6
           },
-          "title": "follow @ arisemiami",
+          "title": "Instagram Feed",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"#\">Show more</a>",
           "display2": "display-2",
           "display4": "display-4",
@@ -880,12 +880,7 @@
             "Extension"
           ],
           "_name": "instagram-feed-block",
-          "_anchor": "instagram-feed-block-2c",
-          "_styles": {
-            ".inst__title": {
-              "color": "#cccccc"
-            }
-          }
+          "_anchor": "instagram-feed-block-37"
         },
         {
           "alias": false,
