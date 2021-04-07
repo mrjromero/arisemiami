@@ -851,23 +851,6 @@
           "_params": {}
         },
         {
-          "_params": {},
-          "_customHTML": "<!-- Type valid HTML here -->\n<!-- LightWidget WIDGET -->[JS_CODE_0]<iframe src=\"//lightwidget.com/widgets/b951fa1bb89a536987cfb3174380a8c1.html\" scrolling=\"no\" allowtransparency=\"true\" class=\"lightwidget-widget\" style=\"width:100%;border:0;overflow:hidden;\"></iframe>",
-          "_customCSS": "/* Type valid CSS here */\n.mbr-section {\n  text-align: center;\n  color: #232323;\n}",
-          "_styles": {},
-          "alias": "deltapi-code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "custom-html",
-          "_sourceTheme": "mobirise4",
-          "_anchor": "custom-html-3d",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script src=\"https://cdn.lightwidget.com/widgets/lightwidget.js\"></script>"
-          ]
-        },
-        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
