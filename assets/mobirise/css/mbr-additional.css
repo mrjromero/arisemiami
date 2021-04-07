@@ -1264,6 +1264,13 @@ section.lazy-placeholder:after {
 .cid-saneodREk7 H2 {
   color: #efefef;
 }
+#custom-html-3d {
+  /* Type valid CSS here */
+}
+#custom-html-3d .mbr-section {
+  text-align: center;
+  color: #232323;
+}
 .cid-rvE7uOuah4 {
   padding-top: 45px;
   padding-bottom: 45px;
