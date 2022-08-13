@@ -5997,8 +5997,25 @@ section.lazy-placeholder:after {
 .cid-rvFwEtuDnw .dropdown-item:hover {
   color: #55b4d4 !important;
 }
-.cid-tellIJ1UAP {
-  background-image: url("../../../assets/images/520114756-22c40b5eba-o-6-2000x1500.jpeg");
+.cid-tels3OHSNb {
+  background-image: url("../../../assets/images/520114756-22c40b5eba-o-2000x1500.jpg");
+}
+.cid-tels3OHSNb .mbr-section-title {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-tels3OHSNb .mbr-text,
+.cid-tels3OHSNb .mbr-section-btn {
+  text-align: center;
+}
+.cid-tels3OHSNb .btn {
+  padding: 17px 30px;
+  border-radius: 50px;
+}
+.cid-tels3OHSNb .btn:hover,
+.cid-tels3OHSNb .btn:focus {
+  border-color: #000000 !important;
+  background-color: #000000 !important;
 }
 .cid-rvFCod2TSc {
   padding-top: 30px;
