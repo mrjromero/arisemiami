@@ -10090,15 +10090,18 @@ section.lazy-placeholder:after {
   transition: box-shadow 0.3s;
 }
 .cid-tfL7fknQHf {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/mbr-900x599.jpg");
 }
 .cid-tfL7fknQHf .mbr-section-subtitle {
-  color: #767676;
+  color: #ffffff;
 }
 .cid-tfL7fknQHf .btn {
   margin: 0 0 .5rem 0;
+}
+.cid-tfL7fknQHf H2 {
+  color: #ffffff;
 }
 .cid-sa0HKkuI4x {
   padding-top: 30px;
