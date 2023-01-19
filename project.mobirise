@@ -15324,32 +15324,6 @@
           "_params": {}
         }
       ]
-    },
-    "connectcard.html": {
-      "settings": {
-        "meta_descr": "Site Generator Description",
-        "title": "ARISE Church | Connect Card",
-        "html_before": "",
-        "header_custom": "<meta http-equiv=\"Refresh\" content=\"0; url='https://arisemiami.churchcenter.com/people/forms/423497'\" />",
-        "footer_custom": "Please follow <a href=\"https://arisemiami.churchcenter.com/people/forms/423497\">this link</a>."
-      },
-      "components": [
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <h1 class=\"display-1\">Connect</h1>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#777\" width=\"200\" height=\"200\"><path d=\"M6.1 8.7L2.8 12l3.3 3.3-1.4 1.4L0 12l4.7-4.7 1.4 1.4zm13.2-1.4l-1.4 1.4 3.3 3.3-3.3 3.3 1.4 1.4L24 12l-4.7-4.7zM8.1 18.6l1.8.8 6-14-1.8-.8-6 14z\"></path></svg>\n    <p class=\"display-3\">Click to Open Code Editor</p>\n</div>",
-          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_sourceTheme": "mobirise4",
-          "_anchor": "custom-html-4n",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
-        }
-      ]
     }
   }
 }
