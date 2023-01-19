@@ -15328,7 +15328,9 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "ARISE Church | Connect Card",
-        "html_before": "<meta http-equiv=\"Refresh\" content=\"0; url='https://arisemiami.churchcenter.com/people/forms/423497'\" />"
+        "html_before": "",
+        "header_custom": "<meta http-equiv=\"Refresh\" content=\"0; url='https://arisemiami.churchcenter.com/people/forms/423497'\" />",
+        "footer_custom": "Please follow <a href=\"https://arisemiami.churchcenter.com/people/forms/423497\">this link</a>."
       },
       "components": [
         {
