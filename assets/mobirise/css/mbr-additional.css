@@ -10057,16 +10057,18 @@ section.lazy-placeholder:after {
 }
 @media (min-width: 992px) {
   .cid-tRCXQGejeO .media-container-row .mbr-figure {
-    padding-left: 0;
-    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-right: 0;
   }
 }
 .cid-tRCXQGejeO .mbr-section-title {
   color: #181818;
+  text-align: left;
 }
 .cid-tRCXQGejeO .mbr-text,
 .cid-tRCXQGejeO .mbr-section-btn {
   color: #181818;
+  text-align: left;
 }
 .cid-s9Wx1eM61x {
   padding-top: 45px;
