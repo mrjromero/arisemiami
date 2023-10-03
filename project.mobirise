@@ -11712,11 +11712,11 @@
             },
             ".mbr-section-title": {
               "color": "#181818",
-              "text-align": "left"
+              "text-align": "center"
             },
             ".mbr-text, .mbr-section-btn": {
               "color": "#181818",
-              "text-align": "left"
+              "text-align": "center"
             }
           },
           "_name": "header7",
