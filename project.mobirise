@@ -15792,7 +15792,7 @@
           "_anchor": "custom-html-52",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script type=\"text/javascript\">\n      document.addEventListener(\"DOMContentLoaded\", initPlayer);\n\n      function initPlayer(){\n        sldpPlayer = SLDP.init({\n          container:           'player',\n          stream_url:          'wss://vd1.wmspanel.com/video_demo/stream',\n          adaptive_bitrate: {\n            initial_rendition: '240p'\n          },\n          buffering:           500,\n          autoplay:            true,\n          height:              480,\n          width:               424\n        });\n      };\n\n      function removePlayer(){\n        sldpPlayer.destroy(function () {\n          console.log('SLDP Player is destroyed.');\n        });\n      }\n    </script>"
+            "<script type=\"text/javascript\">\n      document.addEventListener(\"DOMContentLoaded\", initPlayer);\n\n      function initPlayer(){\n        sldpPlayer = SLDP.init({\n          container:           'player',\n          stream_url:          'wss://vd1.wmspanel.com/video_demo/stream',\n          adaptive_bitrate: {\n            initial_rendition: '240p'\n          },\n          buffering:           500,\n          autoplay:            true,\n          height:              480,\n          width:               640\n        });\n      };\n\n      function removePlayer(){\n        sldpPlayer.destroy(function () {\n          console.log('SLDP Player is destroyed.');\n        });\n      }\n    </script>"
           ]
         },
         {
