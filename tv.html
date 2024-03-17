@@ -130,27 +130,25 @@ document.oncontextmenu=new Function("alert(message);return false")
 
 <div id="custom-html-52"><!-- Type valid HTML here -->
 
-<div id="player"></div>
-    <script type="text/javascript">
-      document.addEventListener("DOMContentLoaded", initPlayer);
-
-      function initPlayer(){
-        sldpPlayer = SLDP.init({
-          container:           'player',
-          stream_url:          'srt://srt.interamerica.org:55501?latency=200000&pbkeylen=16&passphrase=8640900708807743',
-          buffering:           500,
-          autoplay:            true,
-          height:              1080,
-          width:               1920
-        });
-      };
-
-      function removePlayer(){
-        sldpPlayer.destroy(function () {
-          console.log('SLDP Player is destroyed.');
-        });
-      }
-    </script></div>
+<div id="sldp_player_wrapper"></div>
+<script>
+  document.addEventListener('DOMContentLoaded', initPlayer);
+  var sldpPlayer;
+  function initPlayer(){
+    sldpPlayer = SLDP.init({
+      container: 'sldp_player_wrapper',
+      stream_url: "wss://vd1.wmspanel.com/video_demo/stream",
+      height: 360,
+      width: 640,
+      autoplay: true
+    });
+  
+  };
+  
+  function removePlayer(){
+    sldpPlayer.destroy()
+  }
+</script></div>
 
 <section once="footers" class="cid-u7jk7PyOnh" id="footer7-51">
 
